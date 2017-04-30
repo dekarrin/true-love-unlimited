@@ -38,6 +38,9 @@ image trump sad = "images/trump/trump_sad.png"
 image titlegroup = "images/other/titlegroup.png"
 image titlenixon = "images/other/titlenixon.png"
 
+# bg
+image bg beach = "images/bg/beach.jpg"
+
 # Declare characters used by this game.
 define m = Character('Megan', color="#c8ffc8")
 define n = Character('Nixon', color="#540f05")
