@@ -1,0 +1,33 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 56, in script call
+    call test
+  File "game/script.rpy", line 64, in script call
+    call test_trump
+  File "game/script.rpy", line 56, in script call
+    call test
+  File "game/script.rpy", line 64, in script call
+    call test_trump
+ScriptError: could not find label 'test_trump'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 56, in script call
+    call test
+  File "game/script.rpy", line 64, in script call
+    call test_trump
+  File "C:\Users\tails\Documents\renpy-6.99.12.4-sdk\renpy\ast.py", line 1322, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 56, in script call
+    call test
+  File "game/script.rpy", line 64, in script call
+    call test_trump
+  File "C:\Users\tails\Documents\renpy-6.99.12.4-sdk\renpy\script.py", line 858, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'test_trump'.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+True Love Unlimited 0.0
