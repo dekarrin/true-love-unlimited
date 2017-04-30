@@ -87,3 +87,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Ren'py
+*.bak
+*.rpyc
+*.rpyb
+game/saves/persistent
+
