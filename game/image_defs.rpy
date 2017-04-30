@@ -16,6 +16,10 @@ image clinton sad = "images/clinton/clinton_sad.png"
 
 # megan
 image megan normal = "images/megan/megan_normal.png"
+image megan flip = im.Flip("images/megan/megan_normal.png", horizontal=True)
+
+# tattle
+image tattle angry = "images/lindsay/lindsay_normal.png"
 
 # nixon
 image nixon angry = "images/nixon/nixon_angry.png"
@@ -37,6 +41,13 @@ image trump sad = "images/trump/trump_sad.png"
 image titlegroup = "images/other/titlegroup.png"
 image titlenixon = "images/other/titlenixon.png"
 
+#obj
+image knife = "images/obj/knife.png"
+image glasses = "images/obj/glasses.png"
+
 # bg
 image bg beach = "images/bg/beach.jpg"
-image bg skyline = "images/bg/beach.jpg"
+image bg skyline = "images/bg/skyline.jpg"
+image bg oldoffice = "images/bg/oldoffice.jpg"
+image bg office = "images/bg/office.jpg"
+image bg black = "images/bg/black.png"
