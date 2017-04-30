@@ -93,4 +93,6 @@ ENV/
 *.rpyc
 *.rpyb
 game/saves/persistent
+log.txt
+errors.txt
 
